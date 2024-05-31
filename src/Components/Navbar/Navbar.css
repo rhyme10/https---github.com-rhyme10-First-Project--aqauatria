@@ -1,0 +1,36 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    margin:20px 170px;
+    justify-content: space-between;
+}
+.navbar p{
+    font-size: 22px;
+    font-weight: 1000;
+    background: linear-gradient(270deg, #DF8908 10%, #1260cc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    gap:60px;
+    font-size: 20px;
+    
+}
+.nav-menu li a{
+    text-decoration: none;
+}
+.nav-connect{
+    padding:20px 40px;
+    border-radius:50px;
+    background :#83f28f;
+    font-size:22px;
+    cursor:pointer;
+    transition:0.5s;
+}
+.nav-connect:hover{
+    transform:scale(1.05);
+}
